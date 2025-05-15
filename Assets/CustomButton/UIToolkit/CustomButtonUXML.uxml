@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/CustomButton/CustomButtonUSS.uss?fileID=7433441132597879392&amp;guid=a3ad5abc5b39a06448ce7165e9c8b3c6&amp;type=3#CustomButtonUSS" />
+    <ui:VisualElement name="CustomButton" style="flex-grow: 1; justify-content: center; flex-direction: column; align-self: center; align-content: center; align-items: center; flex-basis: auto; flex-shrink: 1; width: 50%; height: auto; flex-wrap: nowrap;">
+        <CustomCircle name="PrimaryCircle" radius="150" style="height: 315px; width: 315px; translate: 0 0; transition-timing-function: ease; position: absolute;" />
+        <CustomPath name="CircularLoader" end-angle="0" segments="200" radius="110" line-width="70" style="scale: 1 1; translate: 0 0; opacity: 1; transition-duration: 1s; transition-timing-function: ease; position: absolute;" />
+        <CustomCircle name="SecondaryCircle" has-stroke="false" radius="80" end-angle="360" style="height: 315px; width: 315px; translate: 0 0; transition-timing-function: ease; position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+#PrimaryCircle {
+    --primary-Fill: rgba(141, 141, 141, 0.59);
+    --primary-Stroke: rgb(255, 255, 255);
+    transition-duration: 1s;
+    width: 44%;
+}
+
+#SecondaryCircle {
+    --primary-Fill: rgb(157, 157, 157);
+    transition-duration: 1s;
+}
+
+#SecondaryCircle:hover {
+    --primary-Fill: rgb(255, 255, 255);
+    transition-duration: 1s;
+}
